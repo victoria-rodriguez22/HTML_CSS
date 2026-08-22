@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Victoria Alexandra Casillas Rodríguez</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom CSS Variables */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-bg: #f8f9fa;
+            --text-dark: #333333;
+            --border-color: #bdc3c7;
+        }
+
+        /* Inheritance: body sets font for all child elements */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ecf0f1;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border: 3px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--secondary-color);
+            background-color: var(--light-bg);
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid var(--secondary-color);
+            object-fit: cover;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 32px;
+            margin: 15px 0 5px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 22px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #555555;
+        }
+
+        p, li {
+            font-size: 16px;
+            color: #444444;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #bbb;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: var(--secondary-color);
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .references {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .reference-card {
+            flex: 1;
+            min-width: 250px;
+            border: 2px solid var(--border-color);
+            padding: 15px;
+            border-radius: 8px;
+            background-color: var(--light-bg);
+        }
+
+        a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER: Photo + Name + Contact -->
+        <header>
+            <img src="TU-FOTO.jpg" alt="Victoria Alexandra Casillas Rodríguez" class="profile-img">
+            <h1>VICTORIA ALEXANDRA CASILLAS RODRÍGUEZ</h1>
+            <p style="font-size: 18px; color: #7f8c8d;">Computer Engineering Student</p>
+            
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +52 3321996863</p>
+                <p><strong>Age:</strong> 22 years old</p>
+                <p><strong>Nationality:</strong> Mexican</p>
+                <p><strong>Email:</strong> vickynote2002@gmail.com</p>
+                <p><strong>Social Media:</strong> <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+            </div>
+        </header>
+
+        <!-- EDUCATION -->
+        <section class="section">
+            <h2>🎓 Education</h2>
+            <ul>
+                <li><strong>Currently studying:</strong> Bachelor of Science in Computer Engineering, 4th Semester — CUCEI, Universidad de Guadalajara</li>
+                <li><strong>Last completed degree:</strong> General Baccalaureate — Preparatory School, 2024</li>
+                <li><strong>Previous degree:</strong> Secondary Education — School Name, 2021</li>
+            </ul>
+        </section>
+
+        <!-- SKILLS (Computer Science related) -->
+        <section class="section">
+            <h2>💡 Skills</h2>
+            <p>Programming Logic & Algorithms</p>
+            <div class="progress-bar"><div class="progress" style="width: 85%;">85%</div></div>
+            
+            <p>Object-Oriented Programming</p>
+            <div class="progress-bar"><div class="progress" style="width: 78%;">78%</div></div>
+            
+            <p>Problem Solving & Logical Thinking</p>
+            <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+            
+            <p>Teamwork & Collaborative Development</p>
+            <div class="progress-bar"><div class="progress" style="width: 88%;">88%</div></div>
+        </section>
+
+        <!-- WORK EXPERIENCE (invented) -->
+        <section class="section">
+            <h2>💼 Work Experience</h2>
+            <p><strong>Junior Programming Assistant</strong> — TechSolutions, Guadalajara</p>
+            <p style="font-style: italic;">Jun 2025 – Present</p>
+            <ul>
+                <li>Assisted in developing internal web applications using HTML, CSS, and JavaScript</li>
+                <li>Supported database management and data organization tasks</li>
+                <li>Collaborated with senior developers to test and debug software modules</li>
+            </ul>
+        </section>
+
+        <!-- PROJECT EXPERIENCE (invented) -->
+        <section class="section">
+            <h2>🚀 Project Experience</h2>
+            <p><strong>Student Management System</strong> — Academic Project</p>
+            <ul>
+                <li>Developed a console-based application in C++ to manage student records</li>
+                <li>Implemented data structures for efficient information storage and retrieval</li>
+                <li>Designed a user-friendly command-line interface for data input and output</li>
+            </ul>
+            
+            <p><strong>Personal Portfolio Website</strong> — Academic Project</p>
+            <ul>
+                <li>Created a responsive website using HTML and CSS</li>
+                <li>Implemented Google Fonts and custom CSS variables</li>
+                <li>Designed layout and styling from scratch</li>
+            </ul>
+        </section>
+
+        <!-- PROFESSIONAL INTERESTS -->
+        <section class="section">
+            <h2>🎯 Professional Interests</h2>
+            <ul>
+                <li>Software Development & Algorithm Design</li>
+                <li>Web Development (Front-end and Back-end)</li>
+                <li>Database Management & Data Science</li>
+                <li>Mobile Application Development</li>
+            </ul>
+        </section>
+
+        <!-- SOFTWARE SKILLS (Computer Science related) -->
+        <section class="section">
+            <h2>🖥️ Software Proficiency</h2>
+            <p>HTML / HTML5</p>
+            <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+            
+            <p>CSS / CSS3</p>
+            <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+            
+            <p>C / C++ Programming</p>
+            <div class="progress-bar"><div class="progress" style="width: 80%;">80%</div></div>
+            
+            <p>Python</p>
+            <div class="progress-bar"><div class="progress" style="width: 65%;">65%</div></div>
+            
+            <p>GitHub / Git</p>
+            <div class="progress-bar"><div class="progress" style="width: 60%;">60%</div></div>
+            
+            <p>Microsoft Office (Word, Excel, PowerPoint)</p>
+            <div class="progress-bar"><div class="progress" style="width: 85%;">85%</div></div>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section class="section">
+            <h2>🌐 Languages</h2>
+            <p>Spanish — Native</p>
+            <div class="progress-bar"><div class="progress" style="width: 100%;">100%</div></div>
+            
+            <p>English — Intermediate</p>
+            <div class="progress-bar"><div class="progress" style="width: 75%;">75%</div></div>
+        </section>
+
+        <!-- PERSONAL REFERENCES (invented) -->
+        <section class="section">
+            <h2>👤 Personal References</h2>
+            <div class="references">
+                <div class="reference-card">
+                    <h3>Reference 1</h3>
+                    <p><strong>Name:</strong> Dr. Carlos Mendoza Pérez</p>
+                    <p><strong>Relationship:</strong> Professor / Academic Advisor</p>
+                    <p><strong>Phone:</strong> +52 33 1456 7890</p>
+                    <p><strong>Email:</strong> carlos.mendoza@academicos.udg.mx</p>
+                </div>
+                <div class="reference-card">
+                    <h3>Reference 2</h3>
+                    <p><strong>Name:</strong> Ing. Ana María López Soto</p>
+                    <p><strong>Relationship:</strong> Former Project Coordinator</p>
+                    <p><strong>Phone:</strong> +52 33 2567 8901</p>
+                    <p><strong>Email:</strong> ana.lopez@techsolutions.mx</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
