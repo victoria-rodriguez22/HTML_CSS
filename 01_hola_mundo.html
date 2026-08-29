@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo - Victoria Alexandra Casillas Rodríguez</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 520px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            font-size: 1.9rem;
+            margin: 30px 0 20px;
+            color: #ffe066;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .intro {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #f8f8f8;
+            text-align: justify;
+        }
+
+        .btn-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .btn {
+            padding: 14px 26px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.05rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-1 { background-color: #ff6b6b; color: white; }
+        .btn-1:hover { background-color: #ee5a5a; }
+
+        .btn-2 { background-color: #4ecdc4; color: white; }
+        .btn-2:hover { background-color: #3dbdb5; }
+
+        .btn-3 { background-color: #ffe066; color: #333; }
+        .btn-3:hover { background-color: #ffd633; }
+
+        .btn-4 { background-color: #95e1d3; color: #333; }
+        .btn-4:hover { background-color: #7fd8c5; }
+
+        .footer {
+            margin-top: 35px;
+            font-size: 0.9rem;
+            color: #e0e0e0;
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .container { padding: 25px; }
+            .intro { font-size: 0.95rem; }
+            .btn { padding: 12px 22px; font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola Mundo! </h1>
+        
+        <p class="intro">
+            <strong>Victoria Alexandra Casillas Rodríguez</strong><br><br>
+            Soy una persona curiosa, perseverante y con muchas ganas de aprender y crecer. Actualmente estudio <strong>Ingeniería en Computación en CUCEI</strong>, una carrera que me ha permitido acercarme cada vez más al mundo de la tecnología y descubrir nuevos intereses. Me gusta comprender cómo funcionan las cosas, enfrentar nuevos retos y seguir desarrollando mis habilidades.<br><br>
+            También considero muy importantes mis relaciones personales, valoro profundamente la amistad, la confianza y poder ser una persona presente para quienes quiero. Busco seguir construyendo mi camino, aprendiendo de cada experiencia y convirtiéndome poco a poco en una mejor versión de mí misma.
+        </p>
+
+        <h2>Hobbies</h2>
+        
+        <div class="btn-container">
+            <button class="btn btn-1">🧶 Tejer</button>
+            <button class="btn btn-2">🏐 Voleibol</button>
+            <button class="btn btn-3">📖 Leer</button>
+            <button class="btn btn-4">🎨 Pintar</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        Creado por Victoria Alexandra Casillas Rodríguez 
+    </div>
+</body>
+</html>
